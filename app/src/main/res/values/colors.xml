@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- This section contains colors which are not included in the theme -->
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000CC</color>
+    <color name="green">#00FF00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FF8000</color>
+    <color name="lightblue">#33FFFF</color>
+    <color name="yellow">#D5FF00</color>
+    <color name="silver">#D3D3D3</color>
+    <color name="sugar_orange">#A6281D</color>
+    <color name="sugar_dark_blue">#1D0F5B</color>
+    <color name="sugar_green">#408724</color>
+    <color name="textColorHint">#909090</color>
+</resources>

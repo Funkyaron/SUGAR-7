@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin">
+
+    <RelativeLayout
+        android:id="@+id/left_side"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/profile_name_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/verticalMargin"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_very_large"/>
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/verticalMargin"
+            android:layout_marginLeft="@dimen/list_item_horizontal_margin"
+            android:layout_marginRight="@dimen/list_item_horizontal_margin"
+            android:layout_below="@id/profile_name_view"
+            android:textSize="@dimen/text_small"
+            android:text="@string/prompt_edit_profile"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/right_side"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontalMargin"
+        android:layout_toRightOf="@id/left_side"
+        android:layout_centerVertical="true">
+        <Button
+            android:id="@+id/choose_contacts_button"
+            android:background="@drawable/startactivity_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choosecontacts"/>
+        <!--TODO: Add a Button for selecting the mode.-->
+        <Button
+            android:id="@+id/finish_button"
+            android:background="@drawable/startactivity_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/choose_contacts_button"
+            android:layout_marginTop="@dimen/verticalMargin"
+            android:text="@string/save_and_close"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/right_side"
+        android:layout_below="@id/left_side"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/verticalMargin"
+            android:stretchColumns="*">
+            <TableRow
+                android:id="@+id/days_row">
+                <TextView
+                    android:background="@drawable/weekday_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/monday_short" />
+                <TextView
+                    android:background="@drawable/weekday_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/tuesday_short" />
+                <TextView
+                    android:background="@drawable/weekday_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/wednesday_short" />
+                <TextView
+                    android:background="@drawable/weekday_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/thursday_short" />
+                <TextView
+                    android:background="@drawable/weekday_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/friday_short" />
+                <TextView
+                    android:background="@drawable/weekday_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/saturday_short" />
+                <TextView
+                    android:background="@drawable/weekday_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/sunday_short" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/days_checkboxes">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/weekday_background"
+                    android:theme="@style/CheckBoxTheme"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/weekday_background"
+                    android:theme="@style/CheckBoxTheme"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/weekday_background"
+                    android:theme="@style/CheckBoxTheme"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/weekday_background"
+                    android:theme="@style/CheckBoxTheme"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/weekday_background"
+                    android:theme="@style/CheckBoxTheme"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/weekday_background"
+                    android:theme="@style/CheckBoxTheme"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/weekday_background"
+                    android:theme="@style/CheckBoxTheme"/>
+            </TableRow>
+        </TableLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/start_time_button"
+                android:background="@drawable/startactivity_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/horizontalMargin" />
+            <Button
+                android:id="@+id/end_time_button"
+                android:background="@drawable/startactivity_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/start_time_button" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

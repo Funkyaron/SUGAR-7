@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#006400</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="NumberPickerTheme" parent="AppTheme">
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+
+    <style name = "sugar" parent="Theme.AppCompat">
+        <item name = "android:colorBackground">@color/white</item>
+        <item name = "android:textColor">@color/black</item>
+        <item name = "colorPrimary">@color/sugar_green</item>
+        <item name = "android:colorButtonNormal">#006400</item>
+        <item name = "android:textColorPrimary">@color/black</item>
+        <item name = "colorPrimaryDark">@color/blue</item>
+        <item name = "colorAccent">#006400</item>
+        <item name="android:timePickerDialogTheme">@style/TimePickerTheme</item>
+        <item name="android:dialogTheme">@style/TimePickerTheme</item>
+        <item name="android:alertDialogTheme">@style/TimePickerTheme</item>
+    </style>
+
+    <style name="TimePickerTheme" parent = "Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/sugar_dark_blue</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CheckBoxTheme" parent = "Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#404040</item>
+    </style>
+
+    <style name = "customListStyle" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/list_item_background</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DeletionDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/sugar_green</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:colorPrimary">@color/black</item>
+    </style>
+
+</resources>

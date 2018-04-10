@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_item_horizontal_margin">8dp</dimen>
+    <dimen name="list_item_vertical_margin">8dp</dimen>
+    <dimen name="text_bar_horizontal_padding">16dp</dimen>
+    <dimen name="text_bar_vertical_padding">12dp</dimen>
+    <dimen name="profile_name_text_size">30sp</dimen>
+    <dimen name="horizontalMargin">50dp</dimen>
+    <dimen name="verticalMargin">15dp</dimen>
+    <dimen name="horizontalMarginClosingTimes">20dp</dimen>
+    <dimen name="genericTextSize">20sp</dimen>
+    <dimen name="genericSmallTextSize">14sp</dimen>
+    <dimen name="generic_stroke_width">4dp</dimen>
+    <dimen name="table_padding">5dp</dimen>
+    <dimen name="table_padding_large">20dp</dimen>
+    <dimen name="grand_vertical_margin">40dp</dimen>
+    <dimen name="medium_vertical_margin">20dp</dimen>
+    <dimen name="paddingForIcons">35dp</dimen>
+    <dimen name="paddingForProfilesList">5dp</dimen>
+    <dimen name="marginForProfilesList">10dp</dimen>
+    <dimen name="marginLeftListItem">25dp</dimen>
+    <dimen name="marginRightListItem">25dp</dimen>
+    <dimen name="text_very_large">30sp</dimen>
+    <dimen name="text_large">25sp</dimen>
+    <dimen name="text_medium">20sp</dimen>
+    <dimen name="text_small">16sp</dimen>
+</resources>

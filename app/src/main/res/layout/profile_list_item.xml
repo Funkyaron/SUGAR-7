@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/list_item_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingBottom="@dimen/paddingForProfilesList"
+    android:orientation="horizontal"
+    android:weightSum="7">
+    <ImageView
+        android:id="@+id/profile_icon"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:src="@mipmap/manager"
+        android:layout_weight="2"/>
+    <RelativeLayout
+        android:id="@+id/textArea"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="35dp" />
+        <TextView
+            android:id="@+id/profile_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paddingForProfilesList"
+            android:layout_below="@id/profile_name"
+            android:gravity="center"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/profile_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="@dimen/paddingForProfilesList"
+            android:paddingBottom="@dimen/paddingForProfilesList"
+            android:layout_below="@id/profile_start"
+            android:textSize="15dp" />
+    </RelativeLayout>
+</LinearLayout>

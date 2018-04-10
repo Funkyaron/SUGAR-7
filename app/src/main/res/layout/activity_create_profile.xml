@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/edit_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/medium_vertical_margin"
+        android:textSize="@dimen/text_very_large"
+        android:textAlignment="textStart"
+        android:inputType="textCapSentences"
+        android:hint="@string/enter_profile_name"
+        android:textColorHint="@color/textColorHint"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/verticalMargin"
+        android:textSize="@dimen/text_small"
+        android:textAlignment="center"
+        android:text="@string/prompt_edit_profile"/>
+
+
+
+    <!--This section, the TableLayout, displays the days of week. Every TextView will be clickable.
+        When you click on it, the Buttons below will be updated.
+        Additionally, there will be the option to check and uncheck every day of week.-->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/verticalMargin"
+        android:stretchColumns="*">
+        <TableRow
+            android:id="@+id/days_row">
+            <TextView
+                android:background="@drawable/weekday_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_medium"
+                android:text="@string/monday_short" />
+            <TextView
+                android:background="@drawable/weekday_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_medium"
+                android:text="@string/tuesday_short" />
+            <TextView
+                android:background="@drawable/weekday_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_medium"
+                android:text="@string/wednesday_short" />
+            <TextView
+                android:background="@drawable/weekday_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_medium"
+                android:text="@string/thursday_short" />
+            <TextView
+                android:background="@drawable/weekday_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_medium"
+                android:text="@string/friday_short" />
+            <TextView
+                android:background="@drawable/weekday_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_medium"
+                android:text="@string/saturday_short" />
+            <TextView
+                android:background="@drawable/weekday_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_medium"
+                android:text="@string/sunday_short" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/days_checkboxes">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/weekday_background"
+                android:theme="@style/CheckBoxTheme"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/weekday_background"
+                android:theme="@style/CheckBoxTheme"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/weekday_background"
+                android:theme="@style/CheckBoxTheme"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/weekday_background"
+                android:theme="@style/CheckBoxTheme"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/weekday_background"
+                android:theme="@style/CheckBoxTheme"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/weekday_background"
+                android:theme="@style/CheckBoxTheme"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/weekday_background"
+                android:theme="@style/CheckBoxTheme"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+    <!--This section, the RelativeLayout, holds Buttons for both the start time and end time for the
+        selected weekday. Clicking on them will open the TimePickerFragment.-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/grand_vertical_margin"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/start_time_button"
+            android:background="@drawable/startactivity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/horizontalMargin" />
+        <Button
+            android:id="@+id/end_time_button"
+            android:background="@drawable/startactivity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/start_time_button" />
+    </RelativeLayout>
+
+
+
+
+    <!--TODO: Add a Button for selecting the mode.-->
+    <!--<Button
+        android:id="@+id/choose_mode_button"
+        android:background="@drawable/startactivity_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/verticalMargin"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/choose_mode"/>-->
+
+
+
+    <!--This Button is intended to finish the Activity and save the profile.-->
+    <Button
+        android:id="@+id/finish_button"
+        android:background="@drawable/startactivity_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/verticalMargin"
+        android:text="@string/save_and_close"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:background="@drawable/startactivity_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/cancel"/>
+
+</LinearLayout>

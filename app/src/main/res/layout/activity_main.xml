@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/root_layout"
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical">
+    <TextView
+        android:id="@+id/welcoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="@string/greetings"
+        android:textColor="@color/black"
+        android:textSize="@dimen/genericTextSize" />
+    <!--<TextView
+        android:id="@+id/homescreen_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcoming"
+        android:gravity="center"
+        android:text="@string/greetings2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/genericTextSize"/>-->
+    <Button
+        android:id="@+id/edit_button"
+        android:drawableLeft="@mipmap/manager"
+        android:background="@drawable/startactivity_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontalMargin"
+        android:layout_marginRight="@dimen/horizontalMargin"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="@dimen/paddingForIcons"
+        android:text="@string/greetings_edit"
+        android:gravity="center"
+        android:layout_below="@+id/welcoming"
+        android:onClick="openListProfilesActivity" />
+    <Button
+        android:id="@+id/dont_disturb_button"
+        android:background="@drawable/startactivity_button"
+        android:drawableLeft="@mipmap/nomobilephonesallowed"
+        android:layout_below="@id/edit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/verticalMargin"
+        android:layout_marginLeft="@dimen/horizontalMargin"
+        android:layout_marginRight="@dimen/horizontalMargin"
+        android:paddingLeft="@dimen/paddingForIcons"
+        android:text="@string/greetings_disturb"
+        android:gravity="center"
+        android:onClick="openDontDisturbActivity"/>
+    <Button
+        android:id="@+id/closing_time"
+        android:drawableLeft="@mipmap/sleep"
+        android:background="@drawable/startactivity_button"
+        android:layout_below="@id/dont_disturb_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/verticalMargin"
+        android:layout_marginLeft="@dimen/horizontalMargin"
+        android:layout_marginRight="@dimen/horizontalMargin"
+        android:paddingLeft="@dimen/paddingForIcons"
+        android:gravity="center"
+        android:text="@string/greetings_closingtime"
+        android:onClick="openClosingTimeActivity"/>
+    <!--<LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/closing_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/sugar"/>
+    </LinearLayout>-->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/closing_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/verticalMargin">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/sugar"/>
+    </FrameLayout>
+</RelativeLayout>

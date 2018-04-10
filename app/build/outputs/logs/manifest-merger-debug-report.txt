@@ -1,0 +1,298 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:2:1-92:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4ae86ba9bb454575932723467c562e4f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\062497b6e5bd7b3805789c0cc48424b0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3199c3f8c206a7e0c83499095e94257a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\cd7cb700a71b15ae7eb2c37507469265\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\89564976dd9c5f75aaf7ddc6ae6dab5e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dea22d7909b85a9ce1d590612992996b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a592705e126d5a118d16e597202e562c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ee998a2394b49ed65d36ebccf6d5a7d8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\bed79130c9a2a4864ed68c1b151d16da\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\4abea19f08a2121adc911f4330f08bad\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\0acdc12c9e9f2f30c7d2b4bff826857a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2455ed89fdeff4f2f7853f71db1294\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\d13c48635243bd9451c69f76e2be4ca7\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:2:1-92:12
+	package
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:2:1-92:12
+		INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:2:1-92:12
+		INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:6:5-43
+INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:6:5-43
+INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:6:5-43
+MERGED from [com.android.support:design:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4ae86ba9bb454575932723467c562e4f\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4ae86ba9bb454575932723467c562e4f\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\062497b6e5bd7b3805789c0cc48424b0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\062497b6e5bd7b3805789c0cc48424b0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3199c3f8c206a7e0c83499095e94257a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3199c3f8c206a7e0c83499095e94257a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\cd7cb700a71b15ae7eb2c37507469265\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\cd7cb700a71b15ae7eb2c37507469265\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\89564976dd9c5f75aaf7ddc6ae6dab5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\89564976dd9c5f75aaf7ddc6ae6dab5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dea22d7909b85a9ce1d590612992996b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dea22d7909b85a9ce1d590612992996b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a592705e126d5a118d16e597202e562c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a592705e126d5a118d16e597202e562c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ee998a2394b49ed65d36ebccf6d5a7d8\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ee998a2394b49ed65d36ebccf6d5a7d8\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\bed79130c9a2a4864ed68c1b151d16da\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\bed79130c9a2a4864ed68c1b151d16da\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\4abea19f08a2121adc911f4330f08bad\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\4abea19f08a2121adc911f4330f08bad\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\0acdc12c9e9f2f30c7d2b4bff826857a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\0acdc12c9e9f2f30c7d2b4bff826857a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2455ed89fdeff4f2f7853f71db1294\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2455ed89fdeff4f2f7853f71db1294\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\d13c48635243bd9451c69f76e2be4ca7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\d13c48635243bd9451c69f76e2be4ca7\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:6:5-43
+INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:6:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4ae86ba9bb454575932723467c562e4f\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:6:5-43
+		INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:6:15-41
+		INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:7:5-69
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:7:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:9:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:10:5-72
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:10:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:11:5-73
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:11:22-70
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:14:22-63
+uses-permission#android.permission.BIND_SCREENING_SERVICE
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:15:22-78
+application
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:19:5-90:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4ae86ba9bb454575932723467c562e4f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4ae86ba9bb454575932723467c562e4f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\062497b6e5bd7b3805789c0cc48424b0\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\062497b6e5bd7b3805789c0cc48424b0\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3199c3f8c206a7e0c83499095e94257a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3199c3f8c206a7e0c83499095e94257a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\89564976dd9c5f75aaf7ddc6ae6dab5e\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\89564976dd9c5f75aaf7ddc6ae6dab5e\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dea22d7909b85a9ce1d590612992996b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dea22d7909b85a9ce1d590612992996b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a592705e126d5a118d16e597202e562c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a592705e126d5a118d16e597202e562c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ee998a2394b49ed65d36ebccf6d5a7d8\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ee998a2394b49ed65d36ebccf6d5a7d8\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\bed79130c9a2a4864ed68c1b151d16da\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\bed79130c9a2a4864ed68c1b151d16da\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\4abea19f08a2121adc911f4330f08bad\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\4abea19f08a2121adc911f4330f08bad\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\0acdc12c9e9f2f30c7d2b4bff826857a\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\0acdc12c9e9f2f30c7d2b4bff826857a\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2455ed89fdeff4f2f7853f71db1294\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2455ed89fdeff4f2f7853f71db1294\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\d13c48635243bd9451c69f76e2be4ca7\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\d13c48635243bd9451c69f76e2be4ca7\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:22:9-41
+	android:roundIcon
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:23:9-42
+	android:icon
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:21:9-37
+	android:allowBackup
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:25:9-37
+activity#com.example.peter.sugar.MainActivity
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:26:9-31:20
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:26:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.example.peter.sugar.PseudoDialer
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:32:9-41:20
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:32:19-47
+intent-filter#android.intent.action.DIAL
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:33:13-35:29
+action#android.intent.action.DIAL
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:34:25-66
+receiver#com.example.peter.sugar.EnableProfileReceiver
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:43:9-46:40
+	android:enabled
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:44:13-50
+service#com.example.peter.sugar.CallScreeningServiceImpl
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:48:9-54:19
+	android:permission
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:50:13-75
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:49:13-55
+intent-filter#android.telecom.CallScreeningService
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:51:13-53:29
+action#android.telecom.CallScreeningService
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:52:17-80
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:52:25-78
+service#com.example.peter.sugar.NotificationListenerServiceImpl
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:57:9-64:19
+	android:label
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:59:13-57
+	android:permission
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:60:13-87
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:58:13-60
+intent-filter#android.service.notification.NotificationListenerService
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:61:13-63:29
+action#android.service.notification.NotificationListenerService
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:62:17-98
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:62:25-96
+receiver#com.example.peter.sugar.DisableProfileReceiver
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:66:9-69:40
+	android:enabled
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:68:13-35
+	android:exported
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:69:13-37
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:67:13-51
+receiver#com.example.peter.sugar.BootCompletedReceiver
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:70:9-77:20
+	android:enabled
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:72:13-35
+	android:exported
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:73:13-36
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:71:13-50
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:74:13-76:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:75:17-79
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:75:25-76
+activity#com.example.peter.sugar.DoNotDisturbActivity
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:79:9-58
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:79:19-55
+activity#com.example.peter.sugar.EditProfileActivity
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:80:9-57
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:80:19-54
+activity#com.example.peter.sugar.ListProfilesActivity
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:81:9-58
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:81:19-55
+activity#com.example.peter.sugar.ClosingTimeDisplayActivity
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:82:9-64
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:82:19-61
+activity#com.example.peter.sugar.CreateProfileActivity
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:83:9-84:56
+	android:windowSoftInputMode
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:84:13-54
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:83:19-56
+receiver#com.example.peter.sugar.ClosingTimeReceiver
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:86:9-88:38
+	android:enabled
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:88:13-35
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:87:13-48
+activity#com.example.peter.sugar.ClosingTimeReminderActivity
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:89:9-64
+	android:name
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:89:19-62
+data
+ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:39:17-46
+	android:scheme
+		ADDED from C:\Users\arons\StudioProjects\SUGAR-7\app\src\main\AndroidManifest.xml:39:23-43
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4ae86ba9bb454575932723467c562e4f\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\062497b6e5bd7b3805789c0cc48424b0\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\062497b6e5bd7b3805789c0cc48424b0\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\cd7cb700a71b15ae7eb2c37507469265\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\cd7cb700a71b15ae7eb2c37507469265\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\89564976dd9c5f75aaf7ddc6ae6dab5e\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\89564976dd9c5f75aaf7ddc6ae6dab5e\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dea22d7909b85a9ce1d590612992996b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\dea22d7909b85a9ce1d590612992996b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a592705e126d5a118d16e597202e562c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a592705e126d5a118d16e597202e562c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ee998a2394b49ed65d36ebccf6d5a7d8\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ee998a2394b49ed65d36ebccf6d5a7d8\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\bed79130c9a2a4864ed68c1b151d16da\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\bed79130c9a2a4864ed68c1b151d16da\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\4abea19f08a2121adc911f4330f08bad\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\4abea19f08a2121adc911f4330f08bad\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\0acdc12c9e9f2f30c7d2b4bff826857a\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\0acdc12c9e9f2f30c7d2b4bff826857a\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2455ed89fdeff4f2f7853f71db1294\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2455ed89fdeff4f2f7853f71db1294\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\d13c48635243bd9451c69f76e2be4ca7\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\d13c48635243bd9451c69f76e2be4ca7\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4ae86ba9bb454575932723467c562e4f\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\arons\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4ae86ba9bb454575932723467c562e4f\AndroidManifest.xml:26:9-47

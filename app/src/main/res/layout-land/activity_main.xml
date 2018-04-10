@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/root_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"-->
+    <RelativeLayout
+        android:id="@+id/welcoming_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin">
+        <TextView
+            android:id="@+id/welcoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="@dimen/genericTextSize"
+            android:text="@string/greetings"/>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/welcoming"
+            android:layout_marginTop="@dimen/verticalMargin"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/sugar"/>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/welcoming_root"
+        android:layout_marginLeft="@dimen/horizontalMargin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_centerVertical="true">
+        <Button
+            android:id="@+id/edit_button"
+            android:drawableLeft="@mipmap/manager"
+            android:background="@drawable/startactivity_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="@dimen/paddingForIcons"
+            android:paddingRight="@dimen/paddingForIcons"
+            android:text="@string/greetings_edit"
+            android:onClick="openListProfilesActivity" />
+        <Button
+            android:id="@+id/dont_disturb_button"
+            android:background="@drawable/startactivity_button"
+            android:drawableLeft="@mipmap/nomobilephonesallowed"
+            android:layout_below="@id/edit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/verticalMargin"
+            android:paddingLeft="@dimen/paddingForIcons"
+            android:paddingRight="@dimen/paddingForIcons"
+            android:layout_alignParentRight="true"
+            android:text="@string/greetings_disturb"
+            android:onClick="openDontDisturbActivity" />
+        <Button
+            android:id="@+id/closing_time"
+            android:drawableLeft="@mipmap/sleep"
+            android:background="@drawable/startactivity_button"
+            android:layout_below="@id/dont_disturb_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/verticalMargin"
+            android:paddingLeft="@dimen/paddingForIcons"
+            android:paddingRight="@dimen/paddingForIcons"
+            android:layout_alignParentRight="true"
+            android:text="@string/greetings_closingtime"
+            android:onClick="openClosingTimeActivity"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

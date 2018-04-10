@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/overflowReplacement"
+        android:title=""
+        android:icon="@mipmap/menu_alternative"
+        app:showAsAction="ifRoom">
+        <menu>
+        <item
+            android:id="@+id/addProfileItem"
+            android:icon="@mipmap/plus"
+            android:title="@string/add_profile_description"
+            app:showAsAction="ifRoom|withText"/>
+        <item
+            android:id="@+id/removeProfileItem"
+            android:icon="@mipmap/minus"
+            android:title="@string/remove_profile_description"
+            app:showAsAction="ifRoom|withText"/>
+         <item
+             android:id="@+id/downloadProfiles"
+             android:icon="@mipmap/download_button"
+             android:title="@string/download_profile_description"
+             app:showAsAction="ifRoom|withText"/>
+        </menu>
+    </item>
+</menu>

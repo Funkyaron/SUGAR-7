@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.peter.sugar.DoNotDisturbActivity">
+
+    <ImageButton
+        android:id="@+id/start_count_down_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/list_item_background"
+        android:src="@mipmap/play"/>
+
+    <ImageButton
+        android:id="@+id/stop_count_down_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:background="@drawable/list_item_background"
+        android:src="@mipmap/stop"/>
+
+    <RelativeLayout
+        android:id="@+id/time_amount_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/start_count_down_button"
+        android:layout_marginRight="@dimen/horizontalMargin"
+        android:scaleX="1.25"
+        android:scaleY="1.25">
+        <TextView
+            android:id="@+id/dotdot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text=":"
+            android:textSize="@dimen/genericTextSize"/>
+        <NumberPicker
+            android:id="@+id/minute_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/dotdot" />
+        <NumberPicker
+            android:id="@+id/hour_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/dotdot"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/count_down_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/stop_count_down_button"
+        android:layout_marginRight="@dimen/horizontalMargin"
+        android:visibility="gone"
+        android:textSize="@dimen/genericTextSize"/>
+
+    <TextView
+        android:id="@+id/do_not_disturb_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/time_amount_view"
+        android:layout_marginRight="@dimen/horizontalMargin"
+        android:textSize="@dimen/genericTextSize"
+        android:textAlignment="center"
+        android:text="@string/prompt_do_not_disturb"/>
+
+</RelativeLayout>

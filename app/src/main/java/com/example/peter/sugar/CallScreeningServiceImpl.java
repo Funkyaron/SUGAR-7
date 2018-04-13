@@ -74,7 +74,7 @@ public class CallScreeningServiceImpl extends CallScreeningService
     {
         // Step I: Convert the incoming phone number into a human-readable number
         String callerName = callDetails.getCallerDisplayName();
-        String callerNumber = "+" + callDetails.getHandle().toString().substring(7);
+        String callerNumber = callDetails.getHandle().getSchemeSpecificPart();
         // Step II: Check whether the incoming call is allowed or disallowed
         boolean shouldNumberBeBlocked = shouldBlock(callerNumber);
         Log.d(TAG, "Incoming call: [ " + callerName + "," + callerNumber + "," + " ]");

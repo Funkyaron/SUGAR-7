@@ -67,4 +67,5 @@
     <string name="permissions_not_granted">Berechtigungen nicht genehmigt</string>
     <string name="non_valid_entry">Ungültige Eingabe</string>
     <string name="notification_service">NotificationListener</string>
+    <string name="error_message_contacts_permission">Die SUGAR-App hat nicht die Berechtigung, auf die Kontakte zuzugreifen.</string>
 </resources>

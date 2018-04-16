@@ -107,10 +107,8 @@ public class MainActivity extends AppCompatActivity
     {
         Log.d(MainActivity.LOG_TAG, "ConAct: onRequestPermissionsResult()");
         if (requestCode == REQUEST_CONTACTS) {
-            if(verifyPermissions(grantResults))
-                Toast.makeText(this, getString(R.string.permissions_granted), Toast.LENGTH_LONG).show();
-            else
-                Toast.makeText(this, getString(R.string.permissions_not_granted), Toast.LENGTH_LONG).show();
+            if(verifyPermissions(grantResults)) {int a = 1;}
+            else { int b = 2;}
         }
         else
             super.onRequestPermissionsResult(requestCode, permissions, grantResults);

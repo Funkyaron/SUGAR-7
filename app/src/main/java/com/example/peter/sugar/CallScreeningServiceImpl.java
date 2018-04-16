@@ -86,9 +86,18 @@ public class CallScreeningServiceImpl extends CallScreeningService
             respondToCall(callDetails,negativeResponse);
 
             // Send SMS to caller and display toast which indicates the action
-            SmsManager sms = SmsManager.getDefault();
-            sms.sendTextMessage(callerNumber,null,"Hey I'm using SUGAR!",null,null);
-            Toast.makeText(getApplicationContext(),"SMS an Anrufer gesendet!",Toast.LENGTH_SHORT).show();
+            boolean didSendMessage;
+            try {
+                SmsManager sms = SmsManager.getDefault();
+                sms.sendTextMessage(callerNumber, null, getString(R.string.reject_message), null, null);
+                didSendMessage = true;
+            } catch(SecurityException e) {
+                Log.e(MainActivity.LOG_TAG, e.toString());
+                didSendMessage = false;
+            }
+            if(didSendMessage) {
+                Toast.makeText(getApplicationContext(), "SMS an Anrufer gesendet!", Toast.LENGTH_SHORT).show();
+            }
         } else if (!shouldNumberBeBlocked) {
             respondToCall(callDetails,positiveResponse);
             Log.d(TAG,"This number shouldn't be blocked!");

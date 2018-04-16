@@ -49,8 +49,16 @@ public class ContactsDialogFragment extends DialogFragment {
 
         // For information about the cursors see below.
         // The RawContacts query is the one that is displayed to the user.
-        mDataCursor = getDataCursor();
-        mRawCursor = getRawCursor();
+        try {
+            mDataCursor = getDataCursor();
+            mRawCursor = getRawCursor();
+        } catch(SecurityException e) {
+            Log.e(MainActivity.LOG_TAG, e.toString());
+            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+            builder.setMessage(R.string.error_message_contacts_permission);
+            builder.setPositiveButton(android.R.string.ok, null);
+            return builder.create();
+        }
 
         // Now we have to reverse-engine the checked items, so we extract the RawContact IDs
         // from the data table using the list of numbers. Then we go through the RawContacts
@@ -129,8 +137,12 @@ public class ContactsDialogFragment extends DialogFragment {
     public void onDismiss(DialogInterface dialog) {
         super.onDismiss(dialog);
         Log.d(MainActivity.LOG_TAG, "CDF: onDismiss()");
-        mDataCursor.close();
-        mRawCursor.close();
+        if(mDataCursor != null){
+            mDataCursor.close();
+        }
+        if(mRawCursor != null) {
+            mRawCursor.close();
+        }
     }
 
     @Override
@@ -181,7 +193,7 @@ public class ContactsDialogFragment extends DialogFragment {
      * We look for only those rows where there is actually a phone number (MIMETYPE).
      */
 
-    private Cursor getDataCursor() {
+    private Cursor getDataCursor() throws SecurityException {
         Log.d(MainActivity.LOG_TAG, "CDF: getDataCursor()");
 
         String[] dataProjection = new String[] {
@@ -202,7 +214,7 @@ public class ContactsDialogFragment extends DialogFragment {
                 null);
     }
 
-    private Cursor getRawCursor() {
+    private Cursor getRawCursor() throws SecurityException {
         Log.d(MainActivity.LOG_TAG, "CDF: getRawCursor()");
 
         String[] rawProjection = {

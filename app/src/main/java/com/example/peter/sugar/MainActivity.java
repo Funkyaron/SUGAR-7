@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity
      * Permissions we need to read and write contacts.
      */
     private final String[] PERMISSION_CONTACTS = {Manifest.permission.READ_CONTACTS,
-            Manifest.permission.WRITE_CONTACTS,Manifest.permission.SEND_SMS};
+            Manifest.permission.WRITE_CONTACTS,/*Manifest.permission.SEND_SMS*/};
 
 
     @Override
@@ -87,10 +87,10 @@ public class MainActivity extends AppCompatActivity
                 || ActivityCompat.checkSelfPermission(this,Manifest.permission.PACKAGE_USAGE_STATS) != PackageManager.PERMISSION_GRANTED)
         {
             Log.d(MainActivity.LOG_TAG, "ConAct: Permissions not granted, sending request.");
-            ActivityCompat.requestPermissions(this, PERMISSION_CONTACTS, REQUEST_CONTACTS);
+            //ActivityCompat.requestPermissions(this, PERMISSION_CONTACTS, REQUEST_CONTACTS);
         }else {
             Log.d(LOG_TAG, "Permissions granted");
-            startService(new Intent(this,NotificationListenerServiceImpl.class));
+            //startService(new Intent(this,NotificationListenerServiceImpl.class));
         }
 
         // Prompt the user to change the default dialer package to SUGAR. This is necessary to

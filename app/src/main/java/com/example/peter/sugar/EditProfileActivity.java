@@ -1,8 +1,12 @@
 package com.example.peter.sugar;
 
+import android.Manifest;
 import android.app.DialogFragment;
+import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -30,6 +34,8 @@ public class EditProfileActivity extends ActivityContainingProfile {
     private boolean[] days;
     private TimeObject[] startTimes;
     private TimeObject[] endTimes;
+
+    private final int PERMISSION_REQUEST_CODE = 1;
 
     /**
      * Used to detect which day of week is selected
@@ -162,7 +168,13 @@ public class EditProfileActivity extends ActivityContainingProfile {
         chooseContactsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                new ContactsDialogFragment().show(getFragmentManager(), "cont");
+                if(ContextCompat.checkSelfPermission(EditProfileActivity.this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(EditProfileActivity.this,
+                            new String[]{Manifest.permission.READ_CONTACTS},
+                            PERMISSION_REQUEST_CODE);
+                } else {
+                    new ContactsDialogFragment().show(getFragmentManager(), "cont");
+                }
             }
         });
 

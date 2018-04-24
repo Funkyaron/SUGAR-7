@@ -6,7 +6,6 @@ import android.app.DialogFragment;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.util.Log;
@@ -120,19 +119,6 @@ public class ContactsDialogFragment extends DialogFragment {
                     }
                 });
         return dialogBuilder.create();
-
-        /*
-        final AlertDialog toReturn = builder.create();
-        toReturn.setOnShowListener(new DialogInterface.OnShowListener() {
-           @Override
-           public void onShow(DialogInterface dial)
-           {
-               toReturn.getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(Color.BLACK);
-               toReturn.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(Color.BLACK);
-           }
-        });
-        return toReturn;
-        */
     }
 
     @Override
@@ -184,33 +170,56 @@ public class ContactsDialogFragment extends DialogFragment {
 
         // The idea is to go through all rows of the data cursor and remember the
         // latest contact name. If the name of the next contact equals the name
-        // of the latest contact, the contact is stored more than once in the database for some
-        // reason we don't want to investigate further.
-        // Then we just skip the row.
+        // of the latest contact, there are two possibilities: Either the contact has a duplicate
+        // with the same number for some reason we don't want to investigate further.
+        // Or there are multiple numbers stored for the same contact. Then we want to
+        // add the number to the latest contact.
 
         String latestContactName = null;
+        Contact latestContact = null;
         dataCursor.moveToPosition(-1);
         while(dataCursor.moveToNext()) {
             String currentContactName = dataCursor.getString(
                     dataCursor.getColumnIndex(ContactsContract.Data.DISPLAY_NAME_PRIMARY));
             if(latestContactName != null && latestContactName.equals(currentContactName)) {
-                // Duplicate -> skip row
-                continue;
+                // Now we have at least two rows with the same name -> get numbers
+                // and add them to the latest contact if not present.
+                String nextNumber = dataCursor.getString(
+                        dataCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+                String nextNormNumber = dataCursor.getString(
+                        dataCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NORMALIZED_NUMBER));
+                if (nextNumber != null) {
+                    if (!latestContact.numbers.contains(nextNumber)) {
+                        latestContact.numbers.add(nextNumber);
+                    }
+                }
+                if(nextNormNumber != null) {
+                    if (!latestContact.numbers.contains(nextNormNumber)) {
+                        latestContact.numbers.add(nextNormNumber);
+                    }
+                }
+            } else {
+                // Now it is either the first contact or the name has changed. In the first case,
+                // there has been no contact created yet, the latestContact is null. Otherwise
+                // the latestContact is created and contains all numbers.
+                if(latestContact != null) {
+                    allContacts.add(latestContact);
+                }
+                String number = dataCursor.getString(
+                        dataCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+                String normNumber = dataCursor.getString(
+                        dataCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NORMALIZED_NUMBER));
+                ArrayList<String> numbers = new ArrayList<>(2);
+                if (number != null) {
+                    numbers.add(number);
+                }
+                if (normNumber != null) {
+                    numbers.add(normNumber);
+                }
+                //Update latest contact.
+                latestContact = new Contact(currentContactName, numbers);
+                latestContactName = currentContactName;
             }
-            String number = dataCursor.getString(
-                    dataCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
-            String normNumber = dataCursor.getString(
-                    dataCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NORMALIZED_NUMBER));
-            ArrayList<String> numbers = new ArrayList<>(2);
-            if(number != null) {
-                numbers.add(number);
-            }
-            if(normNumber != null) {
-                numbers.add(normNumber);
-            }
-            allContacts.add(new Contact(currentContactName, numbers));
-            //Update latest contact name
-            latestContactName = currentContactName;
         }
         dataCursor.close();
         return allContacts.toArray(new Contact[0]);
